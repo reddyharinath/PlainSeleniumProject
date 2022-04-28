@@ -2,20 +2,24 @@ package classes;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
 import basepackage.BaseClass;
 
 public class Registration  extends BaseClass {
 	
 	public Registration() {
-		super();
+		PageFactory.initElements(driver, this);
 	}
 	
 	
-	@FindBy(linkText = "REGISTER")	
-	private WebElement registerLink;
+	@FindBy(linkText = "Sign Up")	
+	WebElement SignUpLink;
 	
-	public void clickOnRegisterLink() {
-		registerLink.click();
-		//return driver.getCurrentUrl();
+	public void clickOnSignUPLink() {
+		SignUpLink.click();
+		
 	}
+	
+	
 }
