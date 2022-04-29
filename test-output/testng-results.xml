@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-29T07:47:26 IST" name="Sample suite" finished-at="2022-04-29T07:47:44 IST" duration-ms="17328">
+  <suite started-at="2022-04-29T07:57:59 IST" name="Sample suite" finished-at="2022-04-29T07:58:17 IST" duration-ms="17558">
     <groups>
     </groups>
-    <test started-at="2022-04-29T07:47:26 IST" name="Sample test" finished-at="2022-04-29T07:47:44 IST" duration-ms="17328">
+    <test started-at="2022-04-29T07:57:59 IST" name="Sample test" finished-at="2022-04-29T07:58:17 IST" duration-ms="17558">
       <class name="testscripts.NavigateGoogleTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testscripts.NavigateGoogleTest@4fb3ee4e]" started-at="2022-04-29T07:47:27 IST" name="setUp" finished-at="2022-04-29T07:47:40 IST" duration-ms="13897" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testscripts.NavigateGoogleTest@4fb3ee4e]" started-at="2022-04-29T07:57:59 IST" name="setUp" finished-at="2022-04-29T07:58:14 IST" duration-ms="14571" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="navigateGoogleTest()[pri:0, instance:testscripts.NavigateGoogleTest@4fb3ee4e]" started-at="2022-04-29T07:47:40 IST" name="navigateGoogleTest" finished-at="2022-04-29T07:47:43 IST" duration-ms="3048" status="PASS">
+        <test-method signature="navigateGoogleTest()[pri:0, instance:testscripts.NavigateGoogleTest@4fb3ee4e]" started-at="2022-04-29T07:58:14 IST" name="navigateGoogleTest" finished-at="2022-04-29T07:58:16 IST" duration-ms="2468" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateGoogleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscripts.NavigateGoogleTest@4fb3ee4e]" started-at="2022-04-29T07:47:43 IST" name="tearDown" finished-at="2022-04-29T07:47:44 IST" duration-ms="316" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscripts.NavigateGoogleTest@4fb3ee4e]" started-at="2022-04-29T07:58:16 IST" name="tearDown" finished-at="2022-04-29T07:58:17 IST" duration-ms="449" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
