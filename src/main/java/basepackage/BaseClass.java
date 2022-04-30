@@ -6,14 +6,19 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 import util.UtilClass;
 
 public class BaseClass {
 
 	public static WebDriver driver;
 	public static Properties prop ;
-	//String configFilePath = "C:\\Users\\haridama67\\automation_project\\PlainSeleniumProject\\src\\main\\java\\testdata\\config.properties";
+	public ExtentReports extentReports;
+	public ExtentTest logger;
+	
+	
+	
 	
 	public BaseClass() {
 		prop = new Properties();
@@ -42,4 +47,7 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(UtilClass.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		
 	}
+	
+	
+
 }
