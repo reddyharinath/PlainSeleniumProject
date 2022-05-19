@@ -41,7 +41,7 @@ public class NavigateGoogleTest extends BaseClass {
 		logger.info("Registration class object created");
 		registration.clickOnSignUPLink();
 		logger.info("sign up link got clicked..");
-		System.out.println("the page title --->"+driver.getTitle());
+		System.out.println("the page title is--->"+driver.getTitle());
 	}
 	
 	
